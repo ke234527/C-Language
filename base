@@ -1,0 +1,8 @@
+
+  #include<iostream>
+  using namesapec std;
+  int main(){
+    
+    system("pause");
+    return 0;
+}
