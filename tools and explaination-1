@@ -6,7 +6,7 @@ return 0  // 表執行成功
 printf是C的標準輸出函式，是定義在<stdio.h>中的
 cout是C++的標準輸出函式，是定義在<iostream>中的
 ------------------------------
-cout << endl;  //換行
+cout << endl;  //換行(C++)
 ------------------------------
 跳脫字元(Escaped character)
   \n        // 換行
