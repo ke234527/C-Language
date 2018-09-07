@@ -17,9 +17,9 @@ cout << endl;  //換行(C++)
 ------------------------------
 資料型別（Data type）
   初始值
-        int
+        int                         // int 範圍:(-2的31次方)~(2的31次方-1)
   整數 
-        short,long,long long
+        short,long,long long        // long long 範圍:(-2的63次方)~(2的63次方-1)
   小數
         float,double,long double
   字元
