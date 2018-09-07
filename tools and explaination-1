@@ -19,7 +19,7 @@ cout << endl;  //換行(C++)
   初始值
         int
   整數 
-        short,long
+        short,long,long long
   小數
         float,double,long double
   字元
