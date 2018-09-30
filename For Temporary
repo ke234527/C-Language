@@ -1,6 +1,16 @@
+C 語言程式的 main 函數如果不需要讀取任何來自於命令列的參數，則 main 函數就使用最簡單的寫法即可
+
+#include <stdio.h>
+int main() {
+  return 0;
+}
+
 int main(int argc, char* argv[])
 
-這兩個參數的作用是什麼呢？argc 是指命令行輸入參數的個數，argv存儲了所有的命令行參數。
+這兩個參數的作用是什麼呢？
+  argc 是指命令行輸入參數的個數， argc 是一個整數，其值就是 argv 陣列的長度  // argument count(參數總和)的縮寫
+  argv 存儲了所有的命令行參數。                                           // argument value(參數值)的縮寫
+  
 假如你的程式是hello.exe，如果在命令行運行該程式，運行命令為：
 
 hello.exe hello world
