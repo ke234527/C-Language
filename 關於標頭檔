@@ -1,6 +1,6 @@
 C語言無字串之標頭檔
 ------------------------------------------------
-#include<stdio.h>   //是C語言為輸入輸出提供的標準檔
+#include<stdio.h>   //是C語言為輸入輸出提供的標準檔，即standard input/output的縮寫
 
   printf() // 輸出
   scanf()  // 輸入 
