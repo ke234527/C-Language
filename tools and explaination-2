@@ -26,6 +26,17 @@
   if( 條件式 ){ 程式區塊一 }
   else if( 條件式二 ){ 程式區塊二 }
   else{ 程式區塊三 }                 //條件式為true 執行程式區塊一；條件式為false 執行程式區域二
+  
+  switch(變數){                   //大括號很重要
+    case 7:                       //若變數==7，則執行
+        printf("breakfast");
+        break;                    //break很重要，若沒有break，則程式會直接執行
+    case 12:
+        printf("lunch");
+        break;
+    case 18:
+        printf("dinner");
+        break;
 --------------------------
 高斯函式
   floor(欲高斯之數字)         
