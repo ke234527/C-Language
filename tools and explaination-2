@@ -27,6 +27,17 @@
   else if( 條件式二 ){ 程式區塊二 }
   else{ 程式區塊三 }                 //條件式為true 執行程式區塊一；條件式為false 執行程式區域二
   
+e.g.
+  int g=70;
+  if(100>g>60){
+      printf("及格");
+      }
+      else
+      printf("不及格");
+      
+      //Output:不及格
+      //in LINE32 100>g 成立，於是電腦傳回1作為正確
+  
   switch(變數){                   //大括號很重要
     case 7:                       //若變數==7，則執行
         printf("breakfast");
