@@ -16,3 +16,10 @@ int main(int argc, char* argv[])
 hello.exe hello world
 
 那麼，argc的值是 3，argv[0]是"hello.exe"，argv[1]是"hello"，argv[2]是"world"
+--------------------------------------------------------------------------
+  *  取值(value of)   取該變數的值
+  &  取址(adress of)  取該變數儲存的位址
+  
+e.g.
+  printf("%p",&a);要變數a的位置
+  printf("%d",*&a);*跟&互相抵消 就變成單純的printf("%d",a);
