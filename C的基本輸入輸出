@@ -52,3 +52,7 @@ sscanf()：將字串輸入
         char a[10]="Hello";char b[10]="abcd";
         sscanf(a,"%s",b);   //將a裡的字串傳入b
         printf("%s\n",b);   //output為Hello
+------------------------------
+    int a;
+    char b[]="aaaaaa";
+    a=printf("%s",b);
