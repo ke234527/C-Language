@@ -25,6 +25,12 @@ printf()用法:
       3.欲列印資料必須以"雙引號"包起來。
 
       4.列印資料與列印變數以逗號隔開。
+ 
+sprintf()：輸入進字串
+    e.g.
+        char a[10]="aaa";char b[10]="abcd";
+        sprintf(a,"%s",b);    //將b裡的字串傳入a
+        printf("%s\n",a);     //output為abcd
 ------------------------------
 scanf()用法:
 
@@ -40,3 +46,9 @@ scanf()用法:
       3.控制輸入區必須以"雙引號"包起來。
     
       4.輸入變數前面必須加上 ＆ 字元，字串變數除外。
+
+sscanf()：將字串輸入
+    e.g.
+        char a[10]="Hello";char b[10]="abcd";
+        sscanf(a,"%s",b);   //將a裡的字串傳入b
+        printf("%s\n",b);   //output為Hello
